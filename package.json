@@ -1,7 +1,7 @@
 {
   "name": "vite-playwright-msw-sample",
   "private": true,
-  "version": "0.0.0",
+  "version": "12.13.8",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

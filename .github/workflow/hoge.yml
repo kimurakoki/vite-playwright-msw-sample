@@ -1,0 +1,16 @@
+name: hoge
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  NODE_VERSION: 16.x
+
+jobs:
+  on_push_master:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: Songmu/tagpr@v0.2.0
